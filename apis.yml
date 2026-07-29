@@ -1,7 +1,15 @@
 aid: joesfuturefood
-name: joesfuturefood
-description: joesfuturefood is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Joes Future Food (Zhouzi Future)
+description: Joes Future Food (周子未来 / Nanjing Zhouzi Future Food Technology Co., Ltd.)
+  is a Nanjing-based cellular agriculture and food-technology company pioneering cultivated
+  (cell-cultured) meat in China. The founding team produced what it describes as China's
+  first piece of cultivated meat, and the company develops cell-cultured pork products
+  (pork belly, fatback, skin, meatballs, and a mixed family pack) alongside serum-free
+  culture media and a catalog of primary and gene-edited animal cell lines (porcine
+  adipose and muscle stem cells, bovine muscle and adipose cells, chicken embryo fibroblasts,
+  and more) used across cultivated-meat research and biomanufacturing. Backed by Qiming
+  Venture Partners. The company runs a corporate marketing website and publishes no
+  public API, developer portal, or machine-readable specification.
 url: https://raw.githubusercontent.com/api-evangelist/joesfuturefood/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,37 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: 南京周子未来食品科技有限公司
+x-legal-name-en: Nanjing Zhouzi Future Food Technology Co., Ltd.
+x-icp: 苏ICP备2020052333号
+x-address: No. 111 Baizhu Road, Baima Town, Lishui District, Nanjing, Jiangsu, China
+  (江苏省南京市溧水区白马镇白朱路111号)
+x-phone: "025-57250280"
+x-contact-email: communications@joesfuturefood.com
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://joesfuturefood.com/images/logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food Technology
+- Cultivated Meat
+- Cellular Agriculture
+- Biotechnology
+- Alternative Protein
+- Cell Culture Media
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +55,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/joesfuturefood-domain-security.yml
+- type: WellKnown
+  url: well-known/joesfuturefood-well-known.yml
 - type: Website
-  url: https://joesfuturefood.com
+  url: http://joesfuturefood.com
+- type: About
+  url: http://joesfuturefood.com/about.aspx
+- type: Products
+  url: http://joesfuturefood.com/product.aspx
+- type: Blog
+  url: http://joesfuturefood.com/news.aspx
+- type: Support
+  url: http://joesfuturefood.com/contact.aspx
+- type: Careers
+  url: http://joesfuturefood.com/join.aspx
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
