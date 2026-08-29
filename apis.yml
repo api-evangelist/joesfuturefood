@@ -24,6 +24,17 @@ x-address: No. 111 Baizhu Road, Baima Town, Lishui District, Nanjing, Jiangsu, C
   (江苏省南京市溧水区白马镇白朱路111号)
 x-phone: "025-57250280"
 x-contact-email: communications@joesfuturefood.com
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
